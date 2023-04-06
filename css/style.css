@@ -525,6 +525,7 @@ section{
 }
 .owl-carousel{
     position: relative;
+    margin-bottom: 124px;
 }
 .owl-carousel .item{
     display: flex;
