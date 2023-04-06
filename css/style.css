@@ -523,61 +523,63 @@ section{
     align-items: center;
     position: relative;
 }
-.real_project_in{
-    max-width: 600px;
+.owl-carousel{
     position: relative;
 }
-.real_project_in button{
-    max-width: 142px;
+.owl-carousel .item{
+    display: flex;
+}
+.item_in1 ,
+.item_in2{
+    position: relative;
+}
+.oldin_text{
     position: absolute;
-    top: 622px;
     left: 32px;
-    border: none;
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 600; 
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
-    background: rgba(0, 0, 0, 0.42); 
-}
-.real_project_in button:hover{
-    cursor: pointer;
+    bottom: 29px;
     text-transform: uppercase;
+    padding: 23px 55px;
+    background-color: rgba(0, 0, 0, 0.42);
+    color: #FFFFFF;
 }
-.real_project_in_btn1{
-    padding: 22px 55px;
-}
-.real_project_in_btn2{
-    padding: 22px 33px 23px 41px;
-}
-.real_project_wrapper_next{
-    max-width: 150px;
-    display: flex;
-    justify-content: space-between;
+.keyin_text{
     position: absolute;
-    top: 622px;
-    left: 980px;
+    left: 32px;
+    bottom: 29px;
+    text-transform: uppercase;
+    padding: 23px 55px;
+    background-color: rgba(0, 0, 0, 0.42);
+    color: #FFFFFF;
 }
-.real_project_wrapper_next_1{
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-    width: 71px;
-    height: 71px;
-    background: #2B388F;
-    margin-right: 8px;
+.owl-nav{
+    position: absolute;
+    right: 40px;
+    bottom: 29px;
 }
-.real_project_wrapper_next_2{
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-    width: 71px;
-    height: 71px;
-    background: #2B388F;
+.owl-prev span{
+    padding: 19px 25px;
+    background-color: #2B388F;
+    color: transparent;
+    background-image: url(../imgs/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.real_project_wrapper_next a:hover{
+.owl-next span{
+    padding: 19px 25px;
+    background-color: #2B388F;
+    color: transparent;
+    background-image: url(../imgs/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.owl-prev span:hover{
     background-color: #00B027;
+}
+.owl-next span:hover{
+    background-color: #00B027;
+}
+.owl-dots{
+    display: none;
 }
 
 .equipment{
